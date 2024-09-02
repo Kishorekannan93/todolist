@@ -1,0 +1,149 @@
+/* html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgoldenrodyellow;
+    height: 100%;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; 
+    align-items: center;
+    gap: 20px; /* Space between heading, input area, and result 
+    width: 100%;
+    border:2px solid;
+    width:300px;
+    height:400px;
+    background-color: blue;
+}
+
+h1 {
+    margin:10px;
+    
+
+
+}
+
+.input-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    gap: 10px;
+}
+
+input {
+    width: 180px;
+    border-radius: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border: none;
+}
+
+button {
+    width: 80px;
+    height: 30px;
+    background-color: brown;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s;
+}
+
+.result-area {
+    width: 180px;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    
+}
+
+#result {
+    margin:10px;
+    font-size:1.6rem;
+} */
+
+
+html,
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+   background-color:#f5e8ba;
+}
+
+#wrapper h2{
+    display:flex;
+    justify-content: center;
+    
+}
+
+h2{
+    color:#ffeba7;
+    letter-spacing: 1px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black ;
+    margin-top:30px;
+    height:2.5em;
+    width:250px;
+    padding-left:10px;
+}
+
+input:active{
+    border:none;
+}
+#wrapper{
+    height:500px;
+    width:400px;
+    margin:200px auto;
+    background-color:#1f2029;
+    border-radius:10px;
+    padding:30px;
+}
+
+button{
+    margin-top:20px;
+    background-color:#ffeba7;
+    border-radius: 4px;
+    height: 44px;
+    font-weight: 600;
+    padding: 0 30px;
+    letter-spacing: 1px;
+    border: none;
+    color: #102770;
+}
+
+button:hover{
+    cursor:pointer;
+}
+#todoList{
+    color:white;
+    font-size:28px;  
+    margin-top:10px; 
+}
+
+#todoList p{
+  margin:10px 0px;
+}
+
+#todoList p:hover{
+  cursor: pointer;
+}
